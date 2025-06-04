@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plume AI Chatbot Custom</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <img src="asset/Agent Goon B.png" alt="Logo" class="logo" />
+    <h1 class="brand-title">Agent Goon</h1>
+  </div>
+</header>
+
+
+  <main>
+    <div id="chat-container" class="chat-container">
+      <!-- Chat bubbles akan muncul di sini -->
+    </div>
+
+    <form id="chat-form" autocomplete="off">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Tanya apa saja tentang Plume Network..."
+        required
+        autofocus
+        autocomplete="off"
+        aria-label="Tanya chatbot"
+      />
+      <button type="submit" aria-label="Kirim pesan">➤</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container">
+      <hr class="footer-divider" />
+      <div class="main-footer">
+        <div class="copyright">
+          © 2025 Agent Goon by 0xRaizoisme
+          <span class="px-1 text-muted">|</span>
+          Beta v 0.1.0
+        </div>
+        <div class="policies">
+          <a href="#" class="remove-style-link">Terms</a>
+          <span class="">•</span>
+          <a href="#" class="remove-style-link">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
